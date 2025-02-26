@@ -25,19 +25,19 @@ public class WBTests extends TestBase {
 
 }
  @Test
- void testPositiveRegistrationWithRegistredNumber() {
+ void testNegativeRegistrationWithCrashNumber() {
   open(url);
   $("[data-wba-header-name=Login]").click();
   $("#spaAuthForm").shouldHave(text("Войти или создать профиль"));
   $("[inputmode=tel]").click();
-  $("[inputmode=tel]").setValue(phoneNumberUnregistration);
+  $("[inputmode=tel]").setValue(crashPhoneNumber);
   $("#requestCode").click();
-  $("#spaAuthForm").shouldHave(text("Введите код из СМС"));
-  $("#spaAuthForm").shouldHave(text("Отправили на +7 920 012-78-47"));
+  $("[inputmode=tel]").getCssValue("rgb(255, 68, 68)");
+
 
  }
  @Test
- void testNegativeRegistrationWithCrashNumber() {
+ void testPositiveRegistrationWithRegistredNumber() {
   open(url);
   $("[data-wba-header-name=Login]").click();
   $("#spaAuthForm").shouldHave(text("Войти или создать профиль"));

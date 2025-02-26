@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class WBTests extends TestBase {
  public final String url = "https://www.wildberries.ru/";
- public final String phoneNumberUnregistration = "79200127847";
+ public final String phoneNumberUnregistration = "79200127844";
  public final String phoneNumberRegistered = "79200127841";
  public final String crashPhoneNumber = phoneNumberUnregistration.substring(0, phoneNumberUnregistration.length() - 1);
  public final String variableForSearch = "цепочка";
@@ -21,7 +21,7 @@ public class WBTests extends TestBase {
  $("[inputmode=tel]").setValue(phoneNumberUnregistration);
  $("#requestCode").click();
  $("#spaAuthForm").shouldHave(text("Введите код из СМС"));
- $("#spaAuthForm").shouldHave(text("Отправили на +7 920 012-78-47"));
+ $("#spaAuthForm").shouldHave(text("Отправили на +7 920 012-78-44"));
 
 }
  @Test

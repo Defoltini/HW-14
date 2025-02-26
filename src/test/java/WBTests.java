@@ -1,10 +1,11 @@
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-
+@Tag("smoke")
 public class WBTests extends TestBase {
  public final String url = "https://www.wildberries.ru/";
  public final String phoneNumberUnregistration = "79200127844";

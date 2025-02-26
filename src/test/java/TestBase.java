@@ -4,6 +4,10 @@ import com.codeborne.selenide.Selenide;
 import helpers.Attach;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import java.util.Map;
+
 public class TestBase {
     @BeforeAll
     static void beforeAll() {
@@ -13,7 +17,13 @@ public class TestBase {
         Configuration.baseUrl = "https://www.sportmaster.ru";
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("version", "122");
-        Configuration.timeout = 10000;}
+        Configuration.timeout = 10000;
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+                "enableVNC", true,
+                "enableVideo", true
+        ));
+        Configuration.browserCapabilities = capabilities;}
     @AfterEach
     void addAttachments() {
         Attach.screenshotAs("Screenshot after test case");

@@ -3,8 +3,8 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
+
 @Tag("smoke")
 public class WBTests extends TestBase {
  public final String url = "https://www.wildberries.ru/";
@@ -16,6 +16,7 @@ public class WBTests extends TestBase {
  @Test
  void testPositiveRegistrationWithUnregistrationNumber() {
  open(url);
+ sleep(3000);
  $("[data-wba-header-name=Login]").click();
  $("#spaAuthForm").shouldHave(text("Войти или создать профиль"));
  $("[inputmode=tel]").click();
@@ -28,6 +29,7 @@ public class WBTests extends TestBase {
  @Test
  void testNegativeRegistrationWithCrashNumber() {
   open(url);
+  sleep(3000);
   $("[data-wba-header-name=Login]").click();
   $("#spaAuthForm").shouldHave(text("Войти или создать профиль"));
   $("[inputmode=tel]").click();
@@ -40,6 +42,7 @@ public class WBTests extends TestBase {
  @Test
  void testPositiveRegistrationWithRegistredNumber() {
   open(url);
+  sleep(3000);
   $("[data-wba-header-name=Login]").click();
   $("#spaAuthForm").shouldHave(text("Войти или создать профиль"));
   $("[inputmode=tel]").click();
@@ -50,6 +53,7 @@ public class WBTests extends TestBase {
  @Test
  void testSearch() {
   open(url);
+  sleep(3000);
   $("#searchInput").setValue(variableForSearch);
   $("#applySearchBtn").click();
   $("#mainContainer").shouldHave(text(variableForSearch));
@@ -58,6 +62,7 @@ public class WBTests extends TestBase {
  @Test
  void testSearchCharactersProductCard() {
   open(url);
+  sleep(3000);
   $("#searchInput").setValue(article).pressEnter();
   $(".j-details-btn-desktop").click();
   $(".popup__content").shouldHave(text("Характеристики и описание"));
@@ -65,6 +70,7 @@ public class WBTests extends TestBase {
  @Test
  void testEmptyShoppingCart() {
   open(url);
+  sleep(3000);
   $(byText("Корзина")).click();
   $("#mainContainer").shouldHave(text("В корзине пока пусто"));
 

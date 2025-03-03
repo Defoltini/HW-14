@@ -18,7 +18,7 @@ ____
 
 * <a href="#telegram">Уведомление в Telegram при помощи бота</a>
 
-* <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
+* <a href="#gif">Примеры выполнения тестов на Selenoid</a>
 ____
 <a id="tools"></a>
 ## <a name="Технологии и инструменты">**Технологии и инструменты:**</a>
@@ -95,3 +95,15 @@ ____
 <p align="center">  
 <img src="icons/telegram.PNG" alt="telegram" width="500"/></a>  
 </p>
+
+____
+
+
+<a id="gif"></a>
+
+## <a name="Примеры выполнения тестов на Selenide">**Примеры выполнения тестов на Selenide:**</a>
+
+<p align="center">  
+<img src="icons/record.gif" alt="gif" width="500"/></a>  
+</p>
+

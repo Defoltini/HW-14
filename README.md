@@ -10,7 +10,7 @@ ____
 
 * <a href="#cases">Примеры автоматизированных тест-кейсов</a>
 
-* <a href="#jenkins">Сборка в Jenkins</a>
+* <a href="#jenkins">Пример сборки в Jenkins</a>
 
 * <a href="#console">Запуск из терминала</a>
 
@@ -40,12 +40,13 @@ ____
 <a href="https://www.jenkins.io/"><img src="icons/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  
 <a href="https://www.atlassian.com/ru/software/jira/"><img src="icons/Jira.svg" width="50" height="50"  alt="Jira"/></a>  
 </p>
+
 ____
 
 <a id="cases"></a>  
 ## <a name="Примеры автоматизированных тест-кейсов"><strong>Примеры автоматизированных тест-кейсов:</strong></a>  
 
-____
+
 
 - Проверка регистрации по номеру телефона
 - Проверка на регистрацию с невалидным номером телефона
@@ -59,8 +60,32 @@ ____
 
 <a id="jenkins"></a>
 
-## </a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/032-defoltini-HW14/3/)</a>
-____
+## </a>Пример сборки в [Jenkins](https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/)</a>
+
 <p align="center">  
-<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/3/"><img src="icons/Assembly.PNG" alt="Jenkins" width="950"/></a>  
+<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/"><img src="icons/Allure.PNG" alt="Jenkins" width="950"/></a>  
+</p>
+
+
+____
+
+<a id="console"></a>  
+## <a name="Запуск из терминала"><strong>Запуск из терминала:</strong></a>  
+
+***Локальный запуск:***
+```bash  
+gradle clean smoke
+```
+```bash  
+gradle clean test
+```
+
+____
+
+<a id="allure"></a>
+
+## </a> [Allure] отчет (https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/allure/)</a>
+
+<p align="center">  
+<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/allure/"><img src="icons/Allure.PNG" alt="Allure" width="950"/></a>  
 </p>

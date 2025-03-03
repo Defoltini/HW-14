@@ -104,6 +104,6 @@ ____
 ## <a name="Примеры выполнения тестов на Selenide">**Примеры выполнения тестов на Selenide:**</a>
 
 <p align="center">  
-<img src="icons/record.gif" alt="gif" width="500"/></a>  
+<img src="icons/record.gif" alt="gif" width="950"/></a>  
 </p>
 

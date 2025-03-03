@@ -16,7 +16,7 @@ public class WBTests extends TestBase {
  @Test
  void testPositiveRegistrationWithUnregistrationNumber() {
  open(url);
- sleep(3000);
+ sleep(6000);
  $("[data-wba-header-name=Login]").click();
  $("#spaAuthForm").shouldHave(text("Войти или создать профиль"));
  $("[inputmode=tel]").click();
@@ -53,7 +53,7 @@ public class WBTests extends TestBase {
  @Test
  void testSearch() {
   open(url);
-  sleep(3000);
+  sleep(6000);
   $("#searchInput").setValue(variableForSearch);
   $("#applySearchBtn").click();
   $("#mainContainer").shouldHave(text(variableForSearch));

@@ -29,7 +29,7 @@ public class WBTests extends TestBase {
  @Test
  void testNegativeRegistrationWithCrashNumber() {
   open(url);
-  sleep(3000);
+  sleep(6000);
   $("[data-wba-header-name=Login]").click();
   $("#spaAuthForm").shouldHave(text("Войти или создать профиль"));
   $("[inputmode=tel]").click();
@@ -42,7 +42,7 @@ public class WBTests extends TestBase {
  @Test
  void testPositiveRegistrationWithRegistredNumber() {
   open(url);
-  sleep(3000);
+  sleep(6000);
   $("[data-wba-header-name=Login]").click();
   $("#spaAuthForm").shouldHave(text("Войти или создать профиль"));
   $("[inputmode=tel]").click();
@@ -62,7 +62,7 @@ public class WBTests extends TestBase {
  @Test
  void testSearchCharactersProductCard() {
   open(url);
-  sleep(3000);
+  sleep(6000);
   $("#searchInput").setValue(article).pressEnter();
   $(".j-details-btn-desktop").click();
   $(".popup__content").shouldHave(text("Характеристики и описание"));

@@ -93,5 +93,5 @@ ____
 ## <a name="Уведомление в Telegram при помощи бота">**Уведомление в Telegram при помощи бота:**</a>
 
 <p align="center">  
-<img src="icons/telegram.PNG" alt="telegram" width="950"/></a>  
+<img src="icons/telegram.PNG" alt="telegram" width="500"/></a>  
 </p>

@@ -40,3 +40,27 @@ ____
 <a href="https://www.jenkins.io/"><img src="icons/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  
 <a href="https://www.atlassian.com/ru/software/jira/"><img src="icons/Jira.svg" width="50" height="50"  alt="Jira"/></a>  
 </p>
+____
+
+<a id="cases"></a>  
+## <a name="Примеры автоматизированных тест-кейсов"><strong>Примеры автоматизированных тест-кейсов:</strong></a>  
+
+____
+
+- Проверка регистрации по номеру телефона
+- Проверка на регистрацию с невалидным номером телефона
+- Проверка регистрации по уже зарегистрированному телефону
+- Проверка работы поиска товаров
+- Проверка корректности описания карточки товара
+- Проверка состояния продуктовой корзины
+
+____
+
+
+<a id="jenkins"></a>
+
+## </a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/032-defoltini-HW14/3/)</a>
+____
+<p align="center">  
+<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/3/"><img src="icons/Assembly.PNG" alt="Jenkins" width="950"/></a>  
+</p>

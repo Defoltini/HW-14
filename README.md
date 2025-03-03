@@ -16,10 +16,6 @@ ____
 
 * <a href="#allure">Allure отчет</a>
 
-* <a href="#allure-testops">Интеграция с Allure TestOps</a>
-
-* <a href="#jira">Интеграция с Jira</a>
-
 * <a href="#telegram">Уведомление в Telegram при помощи бота</a>
 
 * <a href="#video">Примеры видео выполнения тестов на Selenoid</a>
@@ -35,8 +31,7 @@ ____
 <a href="https://gradle.org/"><img src="icons/Gradle.svg" width="50" height="50"  alt="Gradle"/></a>  
 <a href="https://selenide.org/"><img src="icons/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>  
 <a href="https://aerokube.com/selenoid/"><img src="icons/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>  
-<a href="ht[images](images)tps://github.com/allure-framework/allure2"><img src="icons/Allure.svg" width="50" height="50"  alt="Allure"/></a> 
-<a href="https://qameta.io/"><img src="icons/Allure2.svg" width="50" height="50"  alt="Allure TestOps"/></a>   
+<a href="ht[images](images)tps://github.com/allure-framework/allure2"><img src="icons/Allure.svg" width="50" height="50"  alt="Allure"/></a>   
 <a href="https://www.jenkins.io/"><img src="icons/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  
 <a href="https://www.atlassian.com/ru/software/jira/"><img src="icons/Jira.svg" width="50" height="50"  alt="Jira"/></a>  
 </p>
@@ -60,10 +55,10 @@ ____
 
 <a id="jenkins"></a>
 
-## </a>Пример сборки в [Jenkins](https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/)</a>
+## </a>Пример сборки в [Jenkins](https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/):</a>
 
 <p align="center">  
-<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/"><img src="icons/Allure.PNG" alt="Jenkins" width="950"/></a>  
+<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/"><img src="icons/Assembly.PNG" alt="Jenkins" width="950"/></a>  
 </p>
 
 
@@ -84,8 +79,19 @@ ____
 
 <a id="allure"></a>
 
-## </a> [Allure] отчет (https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/allure/)</a>
+## </a> [Allure](https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/allure/) отчет:  </a>
 
 <p align="center">  
 <a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/7/allure/"><img src="icons/Allure.PNG" alt="Allure" width="950"/></a>  
+</p>
+
+____
+
+
+<a id="telegram"></a>
+
+## <a name="Уведомление в Telegram при помощи бота">**Уведомление в Telegram при помощи бота:**</a>
+
+<p align="center">  
+<img src="icons/telegram.PNG" alt="telegram" width="950"/></a>  
 </p>

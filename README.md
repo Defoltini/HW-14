@@ -89,6 +89,7 @@ ____
 <p align="center">  
 <a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/12/allure/"><img src="icons/Allure2.PNG" alt="Allure" width="950"/></a>  
 </p>
+
 ____
 
 

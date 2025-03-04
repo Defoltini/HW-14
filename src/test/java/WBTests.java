@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -13,6 +14,8 @@ public class WBTests extends TestBase {
  public final String crashPhoneNumber = phoneNumberUnregistration.substring(0, phoneNumberUnregistration.length() - 1);
  public final String variableForSearch = "цепочка";
  public final String article = "56236410";
+
+ @DisplayName("Проверка регистрации по номеру телефона")
  @Test
  void testPositiveRegistrationWithUnregistrationNumber() {
  open(url);
@@ -26,6 +29,8 @@ public class WBTests extends TestBase {
  $("#spaAuthForm").shouldHave(text("Отправили на +7 920 012-78-44"));
 
 }
+
+ @DisplayName("Проверка на регистрацию с невалидным номером телефона")
  @Test
  void testNegativeRegistrationWithCrashNumber() {
   open(url);
@@ -39,6 +44,7 @@ public class WBTests extends TestBase {
 
 
  }
+ @DisplayName("Проверка регистрации по уже зарегистрированному телефону")
  @Test
  void testPositiveRegistrationWithRegistredNumber() {
   open(url);
@@ -50,6 +56,8 @@ public class WBTests extends TestBase {
   $("#requestCode").click();
   $("#spaAuthForm").shouldHave(text("Откройте уведомление в приложении Wildberries"));
  }
+
+ @DisplayName("Проверка работы поиска товаров")
  @Test
  void testSearch() {
   open(url);
@@ -59,6 +67,7 @@ public class WBTests extends TestBase {
   $("#mainContainer").shouldHave(text(variableForSearch));
  }
 
+ @DisplayName("Проверка корректности описания карточки товара")
  @Test
  void testSearchCharactersProductCard() {
   open(url);
@@ -67,6 +76,7 @@ public class WBTests extends TestBase {
   $(".j-details-btn-desktop").click();
   $(".popup__content").shouldHave(text("Характеристики и описание"));
  }
+ @DisplayName("Проверка состояния продуктовой корзины")
  @Test
  void testEmptyShoppingCart() {
   open(url);

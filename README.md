@@ -55,10 +55,10 @@ ____
 
 <a id="jenkins"></a>
 
-## </a>Пример сборки в [Jenkins](https://jenkins.autotests.cloud/job/032-defoltini-HW14/10/):</a>
+## </a>Пример сборки в [Jenkins](https://jenkins.autotests.cloud/job/032-defoltini-HW14/12/):</a>
 
 <p align="center">  
-<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/10/"><img src="icons/Assembly.PNG" alt="Jenkins" width="950"/></a>  
+<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/12/"><img src="icons/Assembly.PNG" alt="Jenkins" width="950"/></a>  
 </p>
 
 
@@ -79,15 +79,15 @@ ____
 
 <a id="allure"></a>
 
-## </a> [Allure](https://jenkins.autotests.cloud/job/032-defoltini-HW14/10/allure/) отчет:  </a>
+## </a> [Allure](https://jenkins.autotests.cloud/job/032-defoltini-HW14/12/allure/) отчет:  </a>
 
 <p align="center">  
-<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/10/allure/"><img src="icons/Allure.PNG" alt="Allure" width="950"/></a>  
+<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/12/allure/"><img src="icons/Allure.PNG" alt="Allure" width="950"/></a>  
 </p>
 
 
 <p align="center">  
-<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/10/allure/"><img src="icons/Allure2.PNG" alt="Allure" width="950"/></a>  
+<a href="https://jenkins.autotests.cloud/job/032-defoltini-HW14/12/allure/"><img src="icons/Allure2.PNG" alt="Allure" width="950"/></a>  
 </p>
 ____
 

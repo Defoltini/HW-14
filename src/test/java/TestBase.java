@@ -14,7 +14,6 @@ public class TestBase {
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = System.getProperty("windowSize", "1920x1080");
         Configuration.remote = "https://user1:1234@" + System.getProperty("selenoidHost") + "wd/hub";
-        Configuration.baseUrl = "https://www.sportmaster.ru";
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("version", "122");
         Configuration.timeout = 10000;

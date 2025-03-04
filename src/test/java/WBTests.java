@@ -116,5 +116,17 @@ public class WBTests extends TestBase {
         });
     }
 
+    @DisplayName("Проверка состояния продуктовой корзины2")
+    @Test
+    void testEmptyShoppingCart2() {
+        open(url);
+        sleep(3000);
+        step("Переходим в корзину", () -> {
+            $("[data-wba-header-name=Cart]").click();
+        });
+        step("Проверяем состояние корзины", () -> {
+            $("#mainContainer").shouldHave(text("В корзине пока пусто"));
+        });
+    }
 
 }

@@ -9,7 +9,7 @@ import static io.qameta.allure.Allure.step;
 @Tag("smoke")
 public class WBTests extends TestBase {
     public final String url = "https://www.wildberries.ru/";
-    public final String phoneNumberUnregistration = "79200127844";
+    public final String phoneNumberUnregistration = "79200127848";
     public final String phoneNumberRegistered = "79200127841";
     public final String crashPhoneNumber = phoneNumberUnregistration.substring(0, phoneNumberUnregistration.length() - 1);
     public final String variableForSearch = "цепочка";

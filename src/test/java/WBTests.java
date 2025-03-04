@@ -3,7 +3,6 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
@@ -103,22 +102,10 @@ public class WBTests extends TestBase {
         });
     }
 
+
     @DisplayName("Проверка состояния продуктовой корзины")
     @Test
     void testEmptyShoppingCart() {
-        open(url);
-        sleep(3000);
-        step("Переходим в корзину", () -> {
-            $(byText("Корзина")).click();
-        });
-        step("Проверяем состояние корзины", () -> {
-            $("#mainContainer").shouldHave(text("В корзине пока пусто"));
-        });
-    }
-
-    @DisplayName("Проверка состояния продуктовой корзины2")
-    @Test
-    void testEmptyShoppingCart2() {
         open(url);
         sleep(3000);
         step("Переходим в корзину", () -> {

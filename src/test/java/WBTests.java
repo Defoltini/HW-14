@@ -31,7 +31,7 @@ public class WBTests extends TestBase {
         });
         step("Проверяем данные в форме", () -> {
             $("#spaAuthForm").shouldHave(text("Введите код из СМС"));
-            $("#spaAuthForm").shouldHave(text("Отправили на +7 920 012-78-44"));
+            $("#spaAuthForm").shouldHave(text("Отправили на +7 920 012-78-48"));
         });
     }
 
